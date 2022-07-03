@@ -14,5 +14,10 @@
         background-color: rgba(43, 41, 41, 0.1);
         border-radius: 4px;
           }
-    
+    }
+
+.not-found{
+    padding: $gap;
+    color: rgb(0, 0, 0);
+    font-weight: bold;;
 }
