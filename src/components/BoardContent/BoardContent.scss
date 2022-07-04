@@ -1,23 +1,35 @@
 @import '_setting.scss';
 
-.board-content{
-    display: flex;
-    margin: 0 $gap $gap;
+.board-content {
+    height: $narbar-boardcontent-height;
+    // display: flex;
+    // margin: 0 $gap $gap;
     overflow-x: auto;
-    &::-webkit-scrollbar{
+    overflow-y: hidden;
+
+    &::-webkit-scrollbar {
         -webkit-appearance: none;
     }
-    &::-webkit-scrollbar:horizontal{
+
+    &::-webkit-scrollbar:horizontal {
         height: 11px;
     }
-    &::-webkit-scrollbar-thumb{
+
+    &::-webkit-scrollbar-thumb {
         background-color: rgba(43, 41, 41, 0.1);
         border-radius: 4px;
-          }
     }
 
-.not-found{
+    .column-drop-preview {
+        background-color: rgba(150, 150, 200, 0.1);
+        border: 1px dashed #abc;
+        margin: 5px 45px 5px 5px;
+    }
+}
+
+.not-found {
     padding: $gap;
     color: rgb(0, 0, 0);
-    font-weight: bold;;
+    font-weight: bold;
+    ;
 }

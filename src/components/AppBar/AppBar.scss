@@ -4,6 +4,7 @@ $appbar-bg-color: rgb(221, 197, 165);
 
 
 .navbar-app{
+    height: $narbar-app-height;
     padding-left: $gap;
     display: flex;
     align-items: center;
